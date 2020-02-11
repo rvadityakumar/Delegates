@@ -49,7 +49,7 @@ namespace Delegates
             BizRulesDelegate mulDel = (x, y) => x * y;
 
             var data = new ProcessData();
-            data.Process(5, 6, addDel)
+            data.Process(5, 6, addDel);
 
 
             /*Action*/
