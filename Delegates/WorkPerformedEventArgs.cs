@@ -10,7 +10,6 @@ namespace Delegates
     {
         public int Hours { get; set; }
         public WorkType workType { get; set; }
-
         public WorkPerformedEventArgs(int hours,WorkType workType)
         {
             Hours = hours;
